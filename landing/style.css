@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+/* Hero */
+.img-desktop {
+    width: 100%;
+    margin: 0px;
+
+}
+
+.img-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -250px;
+}
+
+.first-writing{
+    margin: 5% 25%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    padding: 2%;
+    font-size: 30px;
+    color: rgb(100, 100, 100);
+    display: inline-flex
+}
+
+p{
+    color: rgb(177, 177, 177) ;
+    line-height: 1.5;
+    padding-bottom: 1em;
+    
+}
+
+.writing {
+    margin: 5% 24%;
+    text-align: center;
+    display: block;
+}
+
+.button-ios {
+    padding: 10px 20px;
+    background: rgb(26, 190, 190);
+    border-radius: 30px;
+    border-color: rgb(25, 168, 168) ;
+}
+.button-ios a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-mac {
+    border-radius: 30px;
+    padding: 10px 20px;
+    background: #8080ff;
+    border-color: #7474ec;
+}
+.button-mac a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Second part */
+
+
+.img-computer {
+    margin-left: -50px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    float: left;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+
+.h-2{
+    padding: 4% 0% 1% 0% ;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+
+}
+
+.p2{
+    width: 89%;
+    font-size: 16px;
+    color: rgb(177, 177, 177) ;
+    line-height: 1.5;
+   
+}
+
+.p3{
+    width: 89%;
+    padding-top: 3%;
+    font-size: 16px;
+    color: rgb(177, 177, 177) ;
+    line-height: 2;
+   
+}
+
+.img-devices {
+    margin: auto;
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Third Part */
+
+
+.group-box{
+    margin: 0% 5% 0% 5%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.group {
+    padding-top: 5%;
+    width: 400px;
+    text-align: center;
+}
+
+
+.icon-box{
+    padding: 5% 0%;
+    margin: 0% 5% 0% 5%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.icon{
+    width: 200px;
+    padding-top: 5%;
+}
+
+
+/* Four Part */
+
+.img-logos{
+    width: 60px;
+    margin-top: 40px;
+    margin-left: 7%;
+}
+
+.click-box{
+    flex-wrap: wrap;
+    display: flex;
+    width: 40%;
+    margin-left: 20%;
+    margin-top: -5%;
+    margin-bottom: 0px
+  
+}
+
+.click{
+   display: flex;
+   width: 150px;
+   padding-bottom: 2%;
+}
+
+.click a {
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+}
+
+.click a:hover {
+    color: rgb(90, 197, 201);
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-top: -5%;
+   
+}
+
+.social {
+    padding: 2%;
+}
+.social a:hover {
+    color: rgb(90, 197, 201);
+}
+
+.background {
+
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+    background-color: rgb(245, 245, 245);
+}
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+
+    .img-computer {
+        width: 90%;
+        margin-left: 5%;
+        display: block;
+        height: auto;
+        overflow: hidden;
+    }
+    .img-and-writing {
+        text-align: center;
+        overflow: hidden;
+        display: block;
+       
+    } 
+
+    .h-2 {
+        text-align: center;
+        display: block;
+    }
+
+    .p2 {
+        text-align: center;
+        margin: 2% 10% 2% 10%;
+    }
+    .icon-box {
+        justify-content: center;
+       
+    }
+    .icon {
+        padding: 7%;
+    }
+    .writing {
+     margin: 20% 10%;
+    }
+    .img-logo { 
+        margin: auto;
+    }
+    .first-writing {
+        margin: 10%;
+    }
+    .img-logos {
+        margin: auto;
+        display: flex;
+        padding: 10%;
+    }
+    .click-box {
+        margin: auto;
+        padding-bottom: 10%;
+        padding-left: 10%;
+    }
+    .click {
+        padding-bottom: 5%;
+        justify-content: center;
+    }
+    .social-media {
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+
